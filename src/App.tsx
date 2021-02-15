@@ -7,6 +7,10 @@ import { Main, Section, Sticky } from './styles';
 
 
 function App() {
+  React.useEffect(() => {
+    window.scrollTo({ top: 0 })
+  }, [])
+
   return (
     <>
       <GlobalStyles />
